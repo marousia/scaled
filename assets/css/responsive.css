@@ -1,0 +1,751 @@
+@media screen and (min-width:1600px) and (max-width:1920px) {
+
+
+
+    /*================== Large screen  ===========================*/
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 992px){
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+
+
+
+
+
+
+
+    /*==================head tags=================*/
+
+
+
+
+
+/*====================form placeholder font==============*/
+
+
+
+
+
+
+
+::-webkit-input-placeholder { 
+
+
+
+  font-size: 12px;
+
+
+
+}
+
+
+
+::-moz-placeholder {
+
+
+
+  font-size: 12px;
+
+
+
+}
+
+
+
+:-ms-input-placeholder {
+
+
+
+  font-size: 12px;
+
+
+
+}
+
+
+
+:-moz-placeholder { 
+
+
+
+  font-size: 12px;
+
+
+
+}
+#banner .image{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+#banner{
+    padding: 0 0px 70px;
+}
+#banner .cntnt{
+    padding-top: 0px;
+}
+.contactSec .cntnt{
+    background:#0F35579c;
+padding: 20px;
+}
+.request:before{
+    height: 100%;
+}
+.request ._innerMoreInfo h3{
+    overflow: initial;
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+   
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:991px) {
+
+
+
+    /*_____ Navigation _____*/
+
+    html.move {
+
+        overflow: hidden !important;
+
+    }
+
+    body {
+
+        left: 0;
+
+    /* padding-top: 0; */
+
+    transition: all 0.5s ease;
+
+    }
+
+    body.move {
+
+    overflow: hidden !important;
+
+    position: relative;
+
+    left: -250px;
+
+    transition: all 0.5s ease;
+
+    }
+
+    header.logged {
+
+        position: fixed !important;
+
+        height: 64px;
+
+    }
+
+    header .proIco {
+
+    margin-right: 34px;
+
+    }
+
+    
+
+    .toggle {
+
+        display: block;
+
+    }
+
+    /*#nav{
+
+        height: 376px;
+
+        overflow: auto;
+
+    }*/
+
+
+
+    nav.move {
+
+    right: 0;
+
+    }
+
+    .toggle.move {
+        top: 2px;
+    }
+    nav > ul > li.bTn{
+        justify-content: center;
+        padding-top: 10px;
+    }
+    nav > ul > li > .sub{
+        left: 3px;
+    width: 240px;
+    }
+    nav > ul > li > .sub > li{
+        width: 100%;
+    }
+
+    nav {
+
+        position: fixed !important;
+
+    top: 0;
+
+    right: -250px;
+
+    bottom: 0;
+
+    width: 250px;
+
+    display: block;
+
+    margin: 0 !important;
+
+    background: #f5f6f8;
+
+    border-left: 1px solid #cfd7de;
+
+    overflow-x: hidden;
+
+    overflow-y: auto;
+
+    }
+
+    nav > ul,
+
+    nav > ul > li,
+
+    nav > ul > li > a {
+
+        display: block;
+
+        color: #333!important;
+
+    }
+
+    nav > ul > li {
+
+        padding: 5px 15px;
+
+        border-top: 1px solid #2aa2d926;
+
+    }
+    footer .upside h3{
+        margin-right: 10px;
+    }
+
+    #banner .cntnt{
+        width: 100%;
+        padding-right: 0px;
+    }
+    #banner .cntnt h1{
+        font-size: 55px;
+    }
+    .sideForm{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    #banner {
+        padding: 140px 0px 70px;
+    }
+    /* header.fix .toggle span,
+    header.fix .toggle span:before,
+    header.fix .toggle span:after{
+        background: #000000;
+    } */
+    body.move .toggle span,
+    body.move .toggle span:before,
+    body.move .toggle span:after{
+        background: #0F3557;
+    }
+    .serviceSec .cmnHeadingSec{
+        width: 100%;
+    }
+    .abt .col:first-child{
+        padding-right: 10px;
+        width: 53%;
+    }
+    .abt .col:last-child{
+        width: 47%;
+    }
+    .story .cmnHeadingSec{
+        width: 100%;
+    }
+    .story .cntnt{
+        margin-left: 0px;
+    }
+    .contactSec .cntnt{
+        width: 100%;
+        background: #0F35579c;
+    padding: 20px;
+    }
+    .contactSec{
+        padding: 50px 0px 50px;
+    }
+
+    footer{
+       margin-top: -1px;
+    }
+    nav > ul > li > a{
+        padding-top: 4px;
+    }
+
+    footer .flexRow > .col1 , footer .flexRow > .col{
+        width: 50%;
+    }
+    .serviceSec .col{
+        width: 50%;
+    }
+    #banner .image{
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+
+
+    .blogPage .innerCntnt{
+        width: 100%;
+    }
+    #blog .flexRow > .col1 , #blog .flexRow > .col2{
+        width: 100%;
+    }
+    .outerCntnt .colL{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .outerCntnt .colR{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .news .col{
+        width: calc(100% / 3);
+    }
+    .newsPage .innerCntnt, .sellerPage .innerCntnt{
+        width: 100%;
+    }
+    .newsBlk .image{
+        width: 100%;
+        height: auto;
+    }
+    .newsBlk .colL{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .newsBlk .image img{
+        height: auto;
+    }
+    .growFlex{
+        width: 100%;
+    }
+    .growFlex .col .inner{
+        padding: 30px 15px 25px;
+    }
+    .growForm .flex{
+        flex-direction: column-reverse;
+    }
+    .growForm .colR{
+        width: 100%;
+    }
+    .growForm .colR .image{
+        height: auto;
+    }
+    .growForm .colL{
+        width: 100%;
+        padding: 60px 15px;
+    }
+    .growFlex .col{
+        width: 100%;
+        padding:0px;
+        padding-bottom: 20px;
+    }
+    .logo{
+        margin-top: 7px;
+    }
+    /* .serviceDetailPg:before{
+        height: 100%;
+    } */
+    .request:before{
+        height: 100%;
+    }
+    .request ._innerMoreInfo h3{
+        overflow: initial;
+    }
+    .applyForm{
+        width: 100%;
+    }
+    #clientLogo{
+        width: 100%;
+    }
+
+    .newsSec .col{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .marginTop{
+        margin-top: 0;
+    }
+    .newsPage ,  .sellerPage , .careerBanner{
+        padding-top: 100px!important;
+        padding-bottom: 30px!important;
+    }
+    .news .col{
+        width: 50%;
+    }
+    #banner .cntnt h1 , .blogPage .innerCntnt h2 , .newsPage .innerCntnt h2, .sellerPage h2 , .careerBanner .innerCntnt h2{
+        font-size: 32px;
+    }
+    #banner .cntnt h1{
+        line-height: 35px;
+    }
+    .careerBanner .innerCntnt , .jobListing{
+        width: 100%;
+    }
+    .serviceDetailPg h1{
+        font-size: 36px;
+    }
+    .cmnHeadingSec h2{
+        font-size: 28px;
+    }
+    .iconFlex .col{
+        width: 50%;
+    }
+    #abt .colL {
+        width: 100%;
+        padding-right: 0px;
+    }
+    #abt .colR {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .serviceSec .cmnHeadingSec{
+        width: 100%;
+    }
+    .contactSec .cntnt h2 {
+        font-size: 40px;
+    }
+    .blogPage {
+        padding-top: 100px!important;
+        padding-bottom: 30px!important;
+    }
+    .innerService .image{
+        height: auto;
+    }
+    .innerService .image img{
+        height: auto;
+    }
+    .innerService .col{
+        width: 100%;
+    }
+    .quoteSec .cmnHeadingSec{
+        width: 100%;
+    }
+
+    /* .logo{
+        width: 70px;
+        margin-top: 3px;
+    } */
+    
+    .outerCntnt .colL{
+        width: 100%;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .outerCntnt .colR{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .serviceDetailPg .outerCntnt .image img{
+        height: auto;
+    }
+    .noiseList li{
+        width: 100%;
+    }
+    .extraTxt{
+        width: 100%;
+    }
+    /* .serviceDetailPg:before{
+        height: 100%;
+    } */
+    .request ._innerMoreInfo h3{
+        overflow: initial;
+    }
+    .serviceDetailPg {
+        padding-top: 120px;
+    }
+    .serviceDetailPg h1{
+        font-size: 32px;
+    }
+    #blog .col1 .inner ._cntnt .image{
+        height: auto;
+    }
+    #blog .col1 .inner ._cntnt .image img{
+        height: auto;
+    }
+    #banner {
+        padding: 100px 0px 70px;
+    }
+    .growFormPg .cmnHeadingSec{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .growPg .cntnt{
+        width: 100%;
+    }
+    .growFlex .col{
+        width: 100%;
+        padding:0px;
+        padding-bottom: 20px;
+    }
+    #banner .cntnt p{
+        padding-right: 0px;
+    }
+    #banner .sideForm:after{
+        right:0;
+    }
+    #abt{
+        padding-top: 100px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:480px) {
+    /*_____ col-xx-? _____*/
+    .col-xx-12,
+    .col-xx-11,
+    .col-xx-10,
+    .col-xx-9,
+    .col-xx-8,
+    .col-xx-7,
+    .col-xx-6,
+    .col-xx-5,
+    .col-xx-4,
+    .col-xx-3,
+    .col-xx-2,
+    .col-xx-1 {
+        width: 100% !important;
+    }
+    .abt .col .image , #abt .colL .image , .request .moreInfoBox .image{
+        height: auto;
+    }
+    .newsSec .col{
+        width: 100%;
+    }
+    .flex-2 .inner{
+        width: 100%;
+    }
+    .secRow1 .lblBtn{
+        width: 100%;
+    }
+    .abt .col .image img , #abt .colL .image img , .request .moreInfoBox .image img{
+        height: auto;
+    }
+    
+    .aftrAbt .peraCntnt{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .growFlex .col .inner h3{
+        font-size: 24px;
+    }
+    .aftrAbt .cntnt {
+        width: 100%;
+        padding-right: 0px;
+        text-align:left;
+    }
+    .careersFlex .col{
+        width: 100%;
+    }
+    .request:before{
+        height: 100%;
+    }
+    .outerJobLst{
+        overflow: auto;
+        margin-bottom: 20px;
+    }
+    .outerJobLst ul{
+        width: 800px;
+        margin-bottom: 0px;
+    }
+    .news .col{
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .request .moreInfoBox{
+        width: 100%;
+    }
+    .request ._innerMoreInfo{
+        width: 100%;
+        padding-left: 0px;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    footer .flexRow{
+        flex-flow: column;
+    }
+    footer .infoLst{
+        direction: ltr;
+    }
+    footer .social{
+        justify-content: flex-start;
+    }
+    footer .infoLst > li > i{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    footer .upside{
+        flex-direction: column;
+    }
+    footer form{
+        width: 100%;
+    }
+    footer .flexRow > .col {
+        width: calc(100% / 1);
+    }
+    .contactSec .cntnt h2 {
+        font-size: 28px;
+    }
+    .serviceSec .col{
+        width: 100%;
+    }
+    .iconFlex .col {
+        width: 100%;
+    }
+    
+    .cmnHeadingSec h2 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .story .cntnt{
+        margin-top: 0px;
+    }
+    .cmnSec {
+        padding: 50px 0px;
+    }
+    .serviceDetailPg {
+        padding-top: 120px;
+    }
+    .serviceDetailPg h1{
+        font-size: 28px;
+    }
+    #blog .col1 .inner ._cntnt h2 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .abt .col:last-child{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .abt .col:first-child{
+        width: 100%;
+        padding-right: 0;
+    }
+    .abt:before{
+        display: none;
+    }
+    footer{
+        margin-top: -4px;
+    }
+    #banner .cntnt p{
+        padding-right: 0px;
+    }
+    #banner .sideForm:after{
+        right:0;
+    }
+    .request ._innerMoreInfo h3{
+        font-size: 17px;
+    }
+}
+
+
+
+
+@media screen and (max-width:380px) {
+   
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:330px) {
+
+
+}
+
+
+
+@media screen and (min-width:411px) and (max-width:420px) {
+
+
+
+ 
+
+
+
+}
+
+
+
